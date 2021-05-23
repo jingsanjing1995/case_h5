@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'PingFang SC';
+    src: url('./PingFangSC-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'PingFangSC-Medium';
+    src: url('./PingFangSC-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'PingFang-SC-Bold';
+    src: url('./PingFangSC-Bold.ttf');
+}

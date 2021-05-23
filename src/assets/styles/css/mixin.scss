@@ -1,0 +1,62 @@
+@charset "utf-8";
+@import "@/assets/styles/css/variable.scss"; // 引入变量
+@mixin add-size($size) {
+    font-size: $size;
+    [data-size="14"] & {
+        font-size: $font_size_14;
+    }
+    [data-size="16"] & {
+        font-size: $font_size_16;
+    }
+    [data-size="18"] & {
+        font-size: $font_size_18;
+    }
+    [data-size="20"] & {
+        font-size: $font_size_20;
+    }
+    [data-size="22"] & {
+        font-size: $font_size_22;
+    }
+    [data-size="24"] & {
+        font-size: $font_size_24;
+    }
+    [data-size="26"] & {
+        font-size: $font_size_26;
+    }
+    [data-size="28"] & {
+        font-size: $font_size_28;
+    }
+    [data-size="30"] & {
+        font-size: $font_size_30;
+    }
+    [data-size="32"] & {
+        font-size: $font_size_32;
+    }
+    [data-size="34"] & {
+        font-size: $font_size_34;
+    }
+    [data-size="36"] & {
+        font-size: $font_size_36;
+    }
+    [data-size="38"] & {
+        font-size: $font_size_38;
+    }
+    [data-size="40"] & {
+        font-size: $font_size_40;
+    }
+    [data-size="42"] & {
+        font-size: $font_size_42;
+    }
+    [data-size="44"] & {
+        font-size: $font_size_44;
+    }
+    [data-size="46"] & {
+        font-size: $font_size_46;
+    }
+    [data-size="48"] & {
+        font-size: $font_size_48;
+    }
+    [data-size="50"] & {
+        font-size: $font_size_50;
+    }
+}
